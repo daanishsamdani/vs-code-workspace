@@ -22,16 +22,14 @@ public class RoundAndRound {
         //circle 1 outputs
         System.out.println("circle1.radius = " + circle1.radius);
         System.out.println("circle1.diameter = " + circle1.diameter);
-        System.out.println("circle1.circumference = " + circle1.circumference);
-        System.out.println("circle1.area = " + circle1.area);
-        
-        System.out.println();
+        System.out.println("circle1.circumference = " + Math.round(circle1.circumference * 1000) / 1000.0);
+        System.out.println("circle1.area = " + Math.round(circle1.area * 1000) / 1000.0);
 
         //circle 2 outputs
         System.out.println("circle2.radius = " + circle2.radius);
         System.out.println("circle2.diameter = " + circle2.diameter);
-        System.out.println("circle2.circumference = " + circle2.circumference);
-        System.out.println("circle2.area = " + circle2.area);
+        System.out.println("circle2.circumference = " + Math.round(circle2.circumference * 1000) / 1000.0);
+        System.out.println("circle2.area = " + Math.round(circle2.area * 1000) / 1000.0);
 
 
     }
